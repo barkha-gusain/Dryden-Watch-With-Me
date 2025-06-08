@@ -47,7 +47,9 @@ const App = () => {
     gsap.from(".gallery-grid img", {
       scrollTrigger: {
         trigger: ".gallery",
-        start: "top 55%",
+         start: "top 50%",
+        end: "top 10%",
+        scrub: true,
         toggleActions: "play none none none",
       },
       opacity: 0,
@@ -55,7 +57,7 @@ const App = () => {
       scale: 0.8,
       duration: 1.5,
       ease: "power3.out",
-      stagger: 0.4,
+      stagger: 0.5,
     });
   }, []);
 

@@ -86,9 +86,9 @@ const App = () => {
       <section className="gallery">
         <h2>Our Signature Models</h2>
         <div className="gallery-grid">
-          <img src="/public/pic1.jpg" alt="Dryden Classic" />
-          <img src="/public/pic2.jpg" alt="Dryden Sport" />
-          <img src="/public/pic3.jpg" alt="Dryden Automatic" />
+          <img src="/pic1.jpg" alt="Dryden Classic" />
+          <img src="/pic2.jpg" alt="Dryden Sport" />
+          <img src="/pic3.jpg" alt="Dryden Automatic" />
         </div>
       </section>
 

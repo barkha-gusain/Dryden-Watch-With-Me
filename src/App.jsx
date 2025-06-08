@@ -69,6 +69,7 @@ const App = () => {
           muted
           loop
           playsInline
+          preload="auto"
         ></video>
         <div className="box3">
           <h1>Crafted for the Journey</h1>
